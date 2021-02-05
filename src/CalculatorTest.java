@@ -1,10 +1,12 @@
+import java.io.IOException;
+
 public class CalculatorTest {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ReadClass readClass = new ReadClass();
         double one;
         double two;
-        
+
         System.out.println("Введите первое число: ");
         one = readClass.readNextDouble();
         System.out.println("Введите второе число: ");
